@@ -1,0 +1,15 @@
+version: "3"
+services:
+  node:
+    image: node:8-alpine
+    volumes:
+       - ${PWD}/govuk-prototype-kit:/govuk-prototype-kit
+    working_dir: /govuk-prototype-kit
+    command: |
+      ash -c "apk add git && \
+      git clone https://github.com/alphagov/govuk-prototype-kit.git;
+      cd govuk-prototype-kit && \
+      npm install && \
+      echo no | npm start"
+    ports:
+      - 3000:3000
