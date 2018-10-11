@@ -61,4 +61,4 @@ You can close the app at any try by pressing `control` + `c`
 
 When the application is up and running you should find that the latest version of the prototype kit is now in the `govuk-prototype-kit` directory.
 
-You are free to edit and add files as need and the application will hot reload these changes.
+You are free to edit and add files as needed and the application will hot reload these changes.
