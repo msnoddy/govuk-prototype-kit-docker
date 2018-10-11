@@ -1,6 +1,6 @@
 version: "3"
 services:
-  node:
+  gov-uk-prototype-kit:
     image: node:8-alpine
     volumes:
        - ${PWD}/govuk-prototype-kit:/govuk-prototype-kit
